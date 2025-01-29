@@ -22,7 +22,7 @@ const CardLG = () => {
             </div>
             <div className="flex">
                 <div>
-                    images
+                    image
                 </div>
                 <div>14 people are watching</div>
                 <span>{'0'} 14</span>
