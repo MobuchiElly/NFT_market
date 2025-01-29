@@ -1,0 +1,245 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #060714;
+  --foreground: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #060714;
+    --foreground: #ffffff;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Sora';
+}
+
+/* Base Button Styles */
+.btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 10px;
+  width: 145px;
+  height: 52px;
+  border-radius: 12px;
+  box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.1), inset 4px 4px 4px rgba(255, 255, 255, 0.1);
+}
+
+/* Primary Button Styles */
+.btn-primary {
+  background: linear-gradient(104.42deg, #4745D0 0%, #2A27C9 60.23%);
+}
+
+.btn-primary:hover {
+  background: linear-gradient(104.42deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 60.23%), linear-gradient(104.42deg, #4745D0 0%, #2A27C9 60.23%);
+}
+
+.btn-primary-active {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(104.42deg, #4745D0 0%, #2A27C9 60.23%);
+}
+
+.btn-primary-disabled {
+  background: linear-gradient(104.42deg, rgba(71, 69, 208, 0.25) 0%, rgba(42, 39, 201, 0.25) 60.23%);
+}
+
+/* Secondary Button Styles */
+.btn-secondary {
+  border: 2px solid #7780A1;
+}
+
+.btn-secondary-hover {
+  /* You can add hover effects here if needed */
+}
+
+.btn-secondary-active {
+  border: 2px solid #060714;
+}
+
+.btn-secondary-disabled {
+  opacity: 0.5;
+  border: 2px solid #7780A1;
+}
+
+
+.display{
+  width: 458px;
+  height: 120px;
+  /* left: calc(50% - 458px/2 - 214px);
+  top: calc(50% - 120px/2 - 348.5px); */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 120px;
+  line-height: 100%;
+  letter-spacing: 0.2px;
+  color: #060714;
+}
+
+h1{
+  position: absolute;
+  height: 64px;
+  left: 0%;
+  right: 61.85%;
+  top: calc(50% - 64px/2 - 206.5px);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: 0.2px;
+  color: #060714;
+}
+
+h2{
+  position: absolute;
+  height: 55px;
+  left: 0%;
+  right: 70.2%;
+  top: calc(50% - 55px/2 - 97px);
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 115%;
+  letter-spacing: 0.2px;
+  color: #060714;
+}
+
+h3{
+  position: absolute;
+  height: 50px;
+  left: 0%;
+  right: 75.17%;
+  top: calc(50% - 50px/2 - 1.5px);
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 125%;
+  letter-spacing: 0.2px;
+  color: #060714;
+}
+
+
+h4{
+  position: absolute;
+  width: 200px;
+  height: 45px;
+  left: 0px;
+  top: 471px;
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2px;
+  color: #060714;
+}
+
+h5{
+  position: absolute;
+  width: 177px;
+  height: 40px;
+  left: 0px;
+  top: 565px;
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2px;
+  color: #060714;
+}
+
+
+h6{
+  position: absolute;
+  width: 112px;
+  height: 25px;
+  left: 0px;
+  top: 656px;
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  color: #060714;
+}
+
+.h7{
+  display: block;
+  width: 74px;
+  height: 16px;
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+}
+
+.overline{
+  position: absolute;
+  height: 18px;
+  left: 72.8%;
+  right: 16.59%;
+  top: calc(50% - 18px/2 - 366.5px);
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #060714;
+}
+
+
+
+/* input css*/
+.search-container {
+  position: relative;
+  width: 367px;
+  height: 52px;
+  background: #FFFFFF;
+  box-shadow: 0px 25px 75px rgba(6, 7, 20, 0.1);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: transparent;
+}
+
+.left-text,
+.right-text {
+  font-size: 14px;
+  color: #000; /* Adjust color as needed */
+}
+
+.left-text {
+  margin-right: 10px;
+}
+
+.right-text {
+  margin-left: 10px;
+}
