@@ -1,5 +1,4 @@
 import Image from "next/image"
-import cards from "@/constants/cardData"
 
 const CardLG = ({card}) => {
 
