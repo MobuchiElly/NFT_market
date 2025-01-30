@@ -2,6 +2,9 @@
 
 A frontend application displaying NFT market listings and a details page for each NFT. Built with Next.js, React, TypeScript, Jest, and Tailwind CSS.
 
+###Live URL
+- https://nft-market-navy.vercel.app
+
 ## 📌 Features
 
 - 📌 View NFT marketplace listings
