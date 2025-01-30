@@ -1,10 +1,10 @@
 import Image from "next/image"
-import cards from "@/constants/cardData"
+import { CardProps } from "@/types/components"
 
 
-const SectionH = () => {
+const SectionH = ({cards}: {cards: CardProps[]}) => {
   return (
-    <div className='flex justify-center'>
+    <div className='flex justify-center gap-3'>
         {
             cards.map((card) => (
                 <div key={card.id} className="">
@@ -16,8 +16,8 @@ const SectionH = () => {
                     height={89}
                     priority
                     />
-                    <div>
-                     <p className="text-body-medium-14">{card.amount} ETH</p>   
+                    <div className="text-center">
+                      <p className="text-body-medium-14 text-[#7780A1]">{card.amount} ETH</p>   
                     </div>
                 </div>
             ))

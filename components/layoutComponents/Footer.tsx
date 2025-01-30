@@ -8,7 +8,7 @@ const Footer = () => {
 
   return (
     <footer className='flex justify-center items-center pt-16 pb-10 px-32'>
-      <div className='flex h-[22rem] w-full md:w-[78vw]'>
+      <div className='flex h-[24rem] w-full md:w-[78vw]'>
 
         <div className='flex flex-col justify-between flex-1 p-8 border border-[#262840] rounded-l-[20px]'>
           <NFT />

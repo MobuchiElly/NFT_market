@@ -1,11 +1,10 @@
 "use client"
 import { useState, useEffect } from "react";
-import cards from "@/constants/cardData";
 import Image from "next/image";
 import CardLG from "../cards/CardLG";
 import { CardProps } from "@/types/components";
 
-const FeaturesSection = () => {
+const FeaturesSection = ({cards}: {cards: CardProps[]}) => {
   const [currIndex, setCurrIndex] = useState<number>(0);
   const [featuredList, setFeaturedList] = useState<CardProps[]>(cards.slice(0, 6));
 
@@ -17,7 +16,7 @@ const FeaturesSection = () => {
     } else {
       setFeaturedList(cards.slice(currIndex, endIndex));
     }
-  }, [currIndex]);
+  }, [currIndex, cards]);
 
   const handleClick = () => {
     setCurrIndex((prevIndex) => (prevIndex + 1) % cards.length);

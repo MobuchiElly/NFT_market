@@ -10,13 +10,12 @@ const Section3Component = () => {
           <p className="text-body-medium-16">Ut amet vulputate faucibus vitae semper eget auctor. Diam tempor pulvinar ultricies dolor feugiat aliquam commodo.</p>
           <div className="flex space-x-3">
             <button className="btn btn-primary">Get started</button>
-            <button className="btn btn-secondary">Learn more</button>
+            <button className="btn btn-secondary text-[#7780A1]">Learn more</button>
           </div>
         </div>
         <div className="flex-1">
           <Image
           src="/imgs/sect3ImgRight.svg"
-          className="rounded-[20px]"
         alt="image 1"
           width={684}
           height={616}
