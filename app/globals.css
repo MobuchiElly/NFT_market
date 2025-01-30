@@ -42,11 +42,11 @@ body {
   background: linear-gradient(104.42deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 60.23%), linear-gradient(104.42deg, #4745D0 0%, #2A27C9 60.23%);
 }
 
-.btn-primary-active {
+.btn-primary:active {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(104.42deg, #4745D0 0%, #2A27C9 60.23%);
 }
 
-.btn-primary-disabled {
+.btn-primary:disabled {
   background: linear-gradient(104.42deg, rgba(71, 69, 208, 0.25) 0%, rgba(42, 39, 201, 0.25) 60.23%);
 }
 
@@ -55,25 +55,23 @@ body {
   border: 2px solid #7780A1;
 }
 
-.btn-secondary-hover {
-  /* You can add hover effects here if needed */
+.btn-secondary:hover {
+  border: 2px solid rgb(187, 185, 185);
+  box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.1), inset 4px 4px 4px rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
 }
 
-.btn-secondary-active {
+.btn-secondary:active {
   border: 2px solid #060714;
 }
 
-.btn-secondary-disabled {
+.btn-secondary:disabled {
   opacity: 0.5;
   border: 2px solid #7780A1;
 }
 
 
 .display{
-  width: 458px;
-  height: 120px;
-  /* left: calc(50% - 458px/2 - 214px);
-  top: calc(50% - 120px/2 - 348.5px); */
   font-style: normal;
   font-weight: 600;
   font-size: 120px;
@@ -83,11 +81,6 @@ body {
 }
 
 h1{
-  position: absolute;
-  height: 64px;
-  left: 0%;
-  right: 61.85%;
-  top: calc(50% - 64px/2 - 206.5px);
   font-style: normal;
   font-weight: 600;
   font-size: 64px;
@@ -97,11 +90,6 @@ h1{
 }
 
 h2{
-  position: absolute;
-  height: 55px;
-  left: 0%;
-  right: 70.2%;
-  top: calc(50% - 55px/2 - 97px);
   font-family: 'Sora';
   font-style: normal;
   font-weight: 600;
@@ -112,11 +100,7 @@ h2{
 }
 
 h3{
-  position: absolute;
   height: 50px;
-  left: 0%;
-  right: 75.17%;
-  top: calc(50% - 50px/2 - 1.5px);
   font-family: 'Sora';
   font-style: normal;
   font-weight: 600;
@@ -126,30 +110,19 @@ h3{
   color: #060714;
 }
 
-
 h4{
-  position: absolute;
-  width: 200px;
-  height: 45px;
-  left: 0px;
-  top: 471px;
-  font-family: 'Sora';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 45px;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.2px;
-  color: #060714;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #060714;
 }
 
 h5{
-  position: absolute;
-  width: 177px;
-  height: 40px;
-  left: 0px;
-  top: 565px;
   font-family: 'Sora';
   font-style: normal;
   font-weight: 600;
@@ -163,11 +136,6 @@ h5{
 
 
 h6{
-  position: absolute;
-  width: 112px;
-  height: 25px;
-  left: 0px;
-  top: 656px;
   font-family: 'Sora';
   font-style: normal;
   font-weight: 600;
@@ -189,12 +157,8 @@ h6{
   letter-spacing: 0.2px;
 }
 
-.overline{
-  position: absolute;
+.overlinee{
   height: 18px;
-  left: 72.8%;
-  right: 16.59%;
-  top: calc(50% - 18px/2 - 366.5px);
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
@@ -203,10 +167,7 @@ h6{
   display: flex;
   align-items: center;
   letter-spacing: 3px;
-  text-transform: uppercase;
-  color: #060714;
 }
-
 
 
 /* input css*/
@@ -242,4 +203,16 @@ h6{
 
 .right-text {
   margin-left: 10px;
+}
+
+
+.body-normal-14{
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }

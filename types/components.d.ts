@@ -15,7 +15,8 @@ interface CardProps {
     amount: number;
     timeLeft: string;
     src: string;
-    noOfBidders: number;  
+    bidders: string[];
+    likes: number;
 }
 
 

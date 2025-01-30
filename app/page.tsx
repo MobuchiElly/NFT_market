@@ -1,13 +1,13 @@
-import CardLG from "@/components/CardLG"
+import HeroSection from "@/components/HeroComponent";
+import FeaturesSection from "@/components/FeaturesComponent";
 
-const page = () => {
+const Page = () => {
   return (
-    <div className='min-h-[40vh] flex items-center justify-center'>
-      <p className='text-center'>
-        <CardLG />
-      </p>
+    <div>
+      <HeroSection />
+      <FeaturesSection />
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default Page;

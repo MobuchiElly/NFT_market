@@ -34,7 +34,6 @@ const Footer = () => {
           </div>
           <button className='btn btn-primary mb-5'>My account</button>
           <div className='space-x-6'>
-            {/* I do not want to repeat the icons like this. I would rather create an array of onjects named socialIcons and save the names, id, src and alt text. I can then loop over the array. I am using typescript an as such should have all my types in my type folder. Help me achiev this */}
             {
               socialIcons.map((icon) => (
                   <span key={icon.id}>
