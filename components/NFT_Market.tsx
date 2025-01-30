@@ -3,7 +3,7 @@ import { ComponentProps } from "@/types/components"
 
 const NFT_Market = ({classname}: ComponentProps) => {
   return (
-    <div>
+    <div className="flex items-center space-x-3">
         <Image
         className="inline"
         src="/imgs/sygnet.png"

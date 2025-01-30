@@ -2,7 +2,7 @@ import NFT from "@/components/NFT_Market"
 
 const Navbar = () => {
   return (
-    <nav className='flex justify-between items-center px-10 py-8'>
+    <nav className='flex justify-between items-center sticky top-0 z-50 px-10 py-8 bg-[#060714]'>
         <NFT classname="text-dark-100"/>
         <div className="flex gap-16 text-[#7780A1] text-body-medium-16">
             <span>Auctions</span>

@@ -7,8 +7,8 @@ const Footer = () => {
 
 
   return (
-    <footer className='flex justify-center items-center p-20 px-32'>
-      <div className='flex h-[22rem] lg:w-[70vw]'>
+    <footer className='flex justify-center items-center pt-16 pb-10 px-32'>
+      <div className='flex h-[22rem] w-full md:w-[78vw]'>
 
         <div className='flex flex-col justify-between flex-1 p-8 border border-[#262840] rounded-l-[20px]'>
           <NFT />
@@ -55,11 +55,10 @@ const Footer = () => {
           <div className='text-body-medium-16 text-wrap'>
           Nibh volutpat, aliquam id sagittis elementum. Pellentesque laoreet velit, sed egestas in. Id nam semper dolor tellus vulputate eget turpis. 
           </div> 
-          <div className="search-container">
-            <input type="text" placeholder="Signin" className="search-input" />
-            <span className="right-text">Newsletter</span>
+          <div className="search-container border">
+            <input type="text" placeholder="Newsletter" className="search-input indent-4 text-black" />
+            <span className="right-text cursor-pointer ">Signin</span>
           </div>
-
         </div>
       </div>
     </footer>
