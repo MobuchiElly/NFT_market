@@ -8,7 +8,9 @@ const cards: CardProps[] = [
     timeLeft: "57:15",
     src: [{ lg: "/imgs/nftImage1-lg.png", md: "/imgs/nftImage1-md.png", sm: "/imgs/nftImage1-sm.png" }],
     bidders: ["/imgs/userIcon01.png", "/imgs/userIcon02.png", "/imgs/userIcon03.png"],
-    likes: 14
+    likes: 14,
+    creator: [{name: "@brook_sim", src: "/imgs/creatorImg.png"}],
+    collection: [{name: "@brook_sim", src:"/imgs/collectionImg.png"}]
   },
   {
     id: "2",
@@ -17,7 +19,9 @@ const cards: CardProps[] = [
     timeLeft: "22:59",
     src: [{ lg: "/imgs/nftImage2-lg.png", md: "/imgs/nftImage2-md.png", sm: "/imgs/nftImage2-sm.png" }],
     bidders: ["/imgs/userIcon02.png", "/imgs/userIcon04.png"],
-    likes: 10
+    likes: 10,
+    creator: [{name: "@brook_sim", src: "/imgs/creatorImg.png"}],
+    collection: [{name: "@brook_sim", src:"/imgs/collectionImg.png"}]
   },
   {
     id: "3",
@@ -26,7 +30,9 @@ const cards: CardProps[] = [
     timeLeft: "45:30",
     src: [{ lg: "/imgs/nftImage3-lg.png", md: "/imgs/nftImage3-md.png", sm: "/imgs/nftImage3-sm.png" }],
     bidders: ["/imgs/userIcon01.png", "/imgs/userIcon03.png", "/imgs/userIcon04.png"],
-    likes: 9
+    likes: 9,
+    creator: [{name: "@brook_sim", src: "/imgs/creatorImg.png"}],
+    collection: [{name: "@brook_sim", src:"/imgs/collectionImg.png"}]
   },
   {
     id: "4",
@@ -35,7 +41,9 @@ const cards: CardProps[] = [
     timeLeft: "57:15",
     src: [{ lg: "/imgs/nftImage4-lg.png", md: "/imgs/nftImage4-md.png", sm: "/imgs/nftImage4-sm.png" }],
     bidders: ["/imgs/userIcon01.png", "/imgs/userIcon02.png", "/imgs/userIcon03.png", "/imgs/userIcon04.png"],
-    likes: 5
+    likes: 5,
+    creator: [{name: "@brook_sim", src: "/imgs/creatorImg.png"}],
+    collection: [{name: "@brook_sim", src:"/imgs/collectionImg.png"}]
   },
   {
     id: "5",
@@ -44,7 +52,9 @@ const cards: CardProps[] = [
     timeLeft: "23:46",
     src: [{ lg: "/imgs/nftImage5-lg.png", md: "/imgs/nftImage5-md.png", sm: "/imgs/nftImage5-sm.png" }],
     bidders: ["/imgs/userIcon04.png", "/imgs/userIcon01.png", "/imgs/userIcon02.png"],
-    likes: 8
+    likes: 8,
+    creator: [{name: "@brook_sim", src: "/imgs/creatorImg.png"}],
+    collection: [{name: "@brook_sim", src:"/imgs/collectionImg.png"}]
   },
   {
     id: "6",
@@ -53,7 +63,9 @@ const cards: CardProps[] = [
     timeLeft: "33:20",
     src: [{ lg: "/imgs/nftImage3-lg.png", md: "/imgs/nftImage3-md.png", sm: "/imgs/nftImage3-sm.png" }],
     bidders: ["/imgs/userIcon02.png", "/imgs/userIcon03.png"],
-    likes: 12
+    likes: 12,
+    creator: [{name: "@brook_sim", src: "/imgs/creatorImg.png"}],
+    collection: [{name: "@brook_sim", src:"/imgs/collectionImg.png"}]
   },
   {
     id: "7",
@@ -62,7 +74,9 @@ const cards: CardProps[] = [
     timeLeft: "50:10",
     src: [{ lg: "/imgs/nftImage2-lg.png", md: "/imgs/nftImage2-md.png", sm: "/imgs/nftImage2-sm.png" }],
     bidders: ["/imgs/userIcon01.png", "/imgs/userIcon04.png"],
-    likes: 11
+    likes: 11,
+    creator: [{name: "@brook_sim", src: "/imgs/creatorImg.png"}],
+    collection: [{name: "@brook_sim", src:"/imgs/collectionImg.png"}]
   },
   {
     id: "8",
@@ -71,7 +85,9 @@ const cards: CardProps[] = [
     timeLeft: "12:50",
     src: [{ lg: "/imgs/nftImage4-lg.png", md: "/imgs/nftImage4-md.png", sm: "/imgs/nftImage4-sm.png" }],
     bidders: ["/imgs/userIcon02.png", "/imgs/userIcon03.png"],
-    likes: 7
+    likes: 7,
+    creator: [{name: "@brook_sim", src: "/imgs/creatorImg.png"}],
+    collection: [{name: "@brook_sim", src:"/imgs/collectionImg.png"}]
   },
   {
     id: "9",
@@ -80,7 +96,9 @@ const cards: CardProps[] = [
     timeLeft: "05:20",
     src: [{ lg: "/imgs/nftImage5-lg.png", md: "/imgs/nftImage5-md.png", sm: "/imgs/nftImage5-sm.png" }],
     bidders: ["/imgs/userIcon01.png", "/imgs/userIcon02.png", "/imgs/userIcon04.png"],
-    likes: 6
+    likes: 6,
+    creator: [{name: "@brook_sim", src: "/imgs/creatorImg.png"}],
+    collection: [{name: "@brook_sim", src:"/imgs/collectionImg.png"}]
   },
   {
     id: "10",
@@ -89,7 +107,9 @@ const cards: CardProps[] = [
     timeLeft: "15:40",
     src: [{ lg: "/imgs/nftImage1-lg.png", md: "/imgs/nftImage1-md.png", sm: "/imgs/nftImage1-sm.png" }],
     bidders: ["/imgs/userIcon03.png", "/imgs/userIcon04.png"],
-    likes: 15
+    likes: 15,
+    creator: [{name: "@brook_sim", src: "/imgs/creatorImg.png"}],
+    collection: [{name: "@brook_sim", src:"/imgs/collectionImg.png"}]
   },
   {
     id: "11",
@@ -98,7 +118,9 @@ const cards: CardProps[] = [
     timeLeft: "09:25",
     src: [{ lg: "/imgs/nftImage2-lg.png", md: "/imgs/nftImage2-md.png", sm: "/imgs/nftImage2-sm.png" }],
     bidders: ["/imgs/userIcon01.png"],
-    likes: 18
+    likes: 18,
+    creator: [{name: "@brook_sim", src: "/imgs/creatorImg.png"}],
+    collection: [{name: "@brook_sim", src:"/imgs/collectionImg.png"}]
   },
   {
     id: "12",
@@ -107,7 +129,9 @@ const cards: CardProps[] = [
     timeLeft: "18:55",
     src: [{ lg: "/imgs/nftImage3-lg.png", md: "/imgs/nftImage3-md.png", sm: "/imgs/nftImage3-sm.png" }],
     bidders: ["/imgs/userIcon02.png", "/imgs/userIcon03.png", "/imgs/userIcon04.png"],
-    likes: 13
+    likes: 13,
+    creator: [{name: "@brook_sim", src: "/imgs/creatorImg.png"}],
+    collection: [{name: "@brook_sim", src:"/imgs/collectionImg.png"}]
   },
   {
     id: "13",
@@ -116,7 +140,9 @@ const cards: CardProps[] = [
     timeLeft: "42:10",
     src: [{ lg: "/imgs/nftImage4-lg.png", md: "/imgs/nftImage4-md.png", sm: "/imgs/nftImage4-sm.png" }],
     bidders: ["/imgs/userIcon01.png", "/imgs/userIcon04.png"],
-    likes: 8
+    likes: 8,
+    creator: [{name: "@brook_sim", src: "/imgs/creatorImg.png"}],
+    collection: [{name: "@brook_sim", src:"/imgs/collectionImg.png"}]
   },
   {
     id: "14",
@@ -125,7 +151,9 @@ const cards: CardProps[] = [
     timeLeft: "21:30",
     src: [{ lg: "/imgs/nftImage5-lg.png", md: "/imgs/nftImage5-md.png", sm: "/imgs/nftImage5-sm.png" }],
     bidders: ["/imgs/userIcon02.png", "/imgs/userIcon03.png"],
-    likes: 20
+    likes: 20,
+    creator: [{name: "@brook_sim", src: "/imgs/creatorImg.png"}],
+    collection: [{name: "@brook_sim", src:"/imgs/collectionImg.png"}]
   },
   {
     id: "15",
@@ -134,7 +162,9 @@ const cards: CardProps[] = [
     timeLeft: "27:50",
     src: [{ lg: "/imgs/nftImage1-lg.png", md: "/imgs/nftImage1-md.png", sm: "/imgs/nftImage1-sm.png" }],
     bidders: ["/imgs/userIcon04.png", "/imgs/userIcon01.png"],
-    likes: 10
+    likes: 10,
+    creator: [{name: "@brook_sim", src: "/imgs/creatorImg.png"}],
+    collection: [{name: "@brook_sim", src:"/imgs/collectionImg.png"}]
   },
   {
     id: "16",
@@ -143,7 +173,9 @@ const cards: CardProps[] = [
     timeLeft: "36:40",
     src: [{ lg: "/imgs/nftImage2-lg.png", md: "/imgs/nftImage2-md.png", sm: "/imgs/nftImage2-sm.png" }],
     bidders: ["/imgs/userIcon02.png", "/imgs/userIcon03.png"],
-    likes: 5
+    likes: 5,
+    creator: [{name: "@brook_sim", src: "/imgs/creatorImg.png"}],
+    collection: [{name: "@brook_sim", src:"/imgs/collectionImg.png"}]
   },
   {
     id: "17",
@@ -152,7 +184,9 @@ const cards: CardProps[] = [
     timeLeft: "48:20",
     src: [{ lg: "/imgs/nftImage3-lg.png", md: "/imgs/nftImage3-md.png", sm: "/imgs/nftImage3-sm.png" }],
     bidders: ["/imgs/userIcon01.png"],
-    likes: 9
+    likes: 9,
+    creator: [{name: "@brook_sim", src: "/imgs/creatorImg.png"}],
+    collection: [{name: "@brook_sim", src:"/imgs/collectionImg.png"}]
   },
   {
     id: "18",
@@ -161,7 +195,9 @@ const cards: CardProps[] = [
     timeLeft: "09:30",
     src: [{ lg: "/imgs/nftImage4-lg.png", md: "/imgs/nftImage4-md.png", sm: "/imgs/nftImage4-sm.png" }],
     bidders: ["/imgs/userIcon01.png", "/imgs/userIcon02.png"],
-    likes: 17
+    likes: 17,
+    creator: [{name: "@brook_sim", src: "/imgs/creatorImg.png"}],
+    collection: [{name: "@brook_sim", src:"/imgs/collectionImg.png"}]
   },
   {
     id: "19",
@@ -170,7 +206,9 @@ const cards: CardProps[] = [
     timeLeft: "11:20",
     src: [{ lg: "/imgs/nftImage5-lg.png", md: "/imgs/nftImage5-md.png", sm: "/imgs/nftImage5-sm.png" }],
     bidders: ["/imgs/userIcon02.png", "/imgs/userIcon04.png"],
-    likes: 22
+    likes: 22,
+    creator: [{name: "@brook_sim", src: "/imgs/creatorImg.png"}],
+    collection: [{name: "@brook_sim", src:"/imgs/collectionImg.png"}]
   },
   {
     id: "20",
@@ -179,7 +217,9 @@ const cards: CardProps[] = [
     timeLeft: "30:15",
     src: [{ lg: "/imgs/nftImage1-lg.png", md: "/imgs/nftImage1-md.png", sm: "/imgs/nftImage1-sm.png" }],
     bidders: ["/imgs/userIcon03.png", "/imgs/userIcon04.png"],
-    likes: 14
+    likes: 14,
+    creator: [{name: "@brook_sim", src: "/imgs/creatorImg.png"}],
+    collection: [{name: "@brook_sim", src:"/imgs/collectionImg.png"}]
   },
   {
     id: "21",
@@ -188,7 +228,9 @@ const cards: CardProps[] = [
     timeLeft: "12:40",
     src: [{ lg: "/imgs/nftImage2-lg.png", md: "/imgs/nftImage2-md.png", sm: "/imgs/nftImage2-sm.png" }],
     bidders: ["/imgs/userIcon01.png", "/imgs/userIcon03.png"],
-    likes: 9
+    likes: 9,
+    creator: [{name: "@brook_sim", src: "/imgs/creatorImg.png"}],
+    collection: [{name: "@brook_sim", src:"/imgs/collectionImg.png"}]
   },
   {
     id: "22",
@@ -197,7 +239,9 @@ const cards: CardProps[] = [
     timeLeft: "18:00",
     src: [{ lg: "/imgs/nftImage3-lg.png", md: "/imgs/nftImage3-md.png", sm: "/imgs/nftImage3-sm.png" }],
     bidders: ["/imgs/userIcon02.png", "/imgs/userIcon04.png"],
-    likes: 21
+    likes: 21,
+    creator: [{name: "@brook_sim", src: "/imgs/creatorImg.png"}],
+    collection: [{name: "@brook_sim", src:"/imgs/collectionImg.png"}]
   },
   {
     id: "23",
@@ -206,7 +250,9 @@ const cards: CardProps[] = [
     timeLeft: "25:10",
     src: [{ lg: "/imgs/nftImage5-lg.png", md: "/imgs/nftImage5-md.png", sm: "/imgs/nftImage5-sm.png" }],
     bidders: ["/imgs/userIcon01.png", "/imgs/userIcon02.png"],
-    likes: 18
+    likes: 18,
+    creator: [{name: "@brook_sim", src: "/imgs/creatorImg.png"}],
+    collection: [{name: "@brook_sim", src:"/imgs/collectionImg.png"}]
   }
 ];
 

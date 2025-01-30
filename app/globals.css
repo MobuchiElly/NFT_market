@@ -170,6 +170,15 @@ h6{
 }
 
 
+.h8{
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+}
+
 /* input css*/
 .search-container {
   position: relative;

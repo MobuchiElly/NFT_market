@@ -1,11 +1,12 @@
 import Image from "next/image"
 import { CardProps } from "@/types/components"
+import Link from "next/link"
 
 const CardLG = ({card}: {card:CardProps}) => {
 
   return (
     <div className='rounded-[20px]  flex justify-center items-center px-6'>
-        <div className="">
+        <Link href={`/details/${card.id}`}>
             <div className="flex justify-center mb-4 h-[520px] w-[400px]">
                 <Image
                 src={card.src[0].lg}
@@ -34,7 +35,7 @@ const CardLG = ({card}: {card:CardProps}) => {
                 priority
                 />  
                 </span> 
-                <span className="body-normal-14 text-[#FFFFFF]">{card.timeLeft}min left</span>
+                <span className="body-normal-14 text-[#ffffff]">{card.timeLeft}min left</span>
             </div>
 
             <div className="flex justify-between border-t pt-4">
@@ -71,7 +72,7 @@ const CardLG = ({card}: {card:CardProps}) => {
                     <span className="text-grey-100 ">{card.likes}</span>
                 </div>
             </div>
-        </div>
+        </Link>
     </div>
   )
 }

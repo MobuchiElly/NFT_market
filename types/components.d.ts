@@ -3,7 +3,17 @@ interface ImageSrc {
     md: string;
     sm: string;
 }
-  
+
+interface Creator {
+    name: string;
+    src: string;
+}
+
+interface Collections{
+    name: string;
+    src: string;
+}
+
 interface CardProps {
     id: string;
     title: string;
@@ -12,6 +22,8 @@ interface CardProps {
     src: ImageSrc[];
     bidders: string[];
     likes: number;
+    creator: Creator[];
+    collection: Collections[];
 }
 
 interface ComponentProps {
