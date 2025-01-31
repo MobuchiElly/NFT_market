@@ -53,7 +53,7 @@ const HeroSection = () => {
       </div>
       <div className="flex items-center mt-24 gap-12">
         {
-          ["/imgs/ritterIcon.svg", "/imgs/nikeIcon.svg", "/imgs/addidasIcon.png", "/imgs/newHollandicon.png"].map((src,index) => (
+          ["/imgs/ritterIcon.svg", "/imgs/nikeIcon.svg", "/imgs/addidasIcon.png", "/imgs/newHollandIcon.png"].map((src,index) => (
             <div key={src+ index}>
               <Image
               src={src}
